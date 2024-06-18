@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="../CSS/product_detail.css">
+</head>
+<body>
+     <!-- navbar start -->
+     <header>
+        <nav>
+            <ul class="sidebar">
+                <li class="close_menu_button" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#" class="logo"><img src="/assets/Logo.svg" alt="Rela Berbagi"></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="navbar">
+                <li><a href="#" class="logo"><img src="/assets/Logo.svg" alt="Rela Berbagi"></a></li>
+                <div class="menu-nav">
+                    <li class="hideOnMobile"><a href="#">Home</a></li>
+                    <li class="hideOnMobile"><a href="#">Product</a></li>
+                    <li class="hideOnMobile"><a href="#">About</a></li>
+                    <li class="hideOnMobile"><a href="#">Contact</a></li>
+                </div>
+
+                <div class="search-input">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17 17l4 4M3 11a8 8 0 1 0 16 0a8 8 0 0 0-16 0"/>
+                    </svg>
+                    <input class="search" type="text" placeholder="Search for anything">
+                </div>
+                
+                <li class="menu_button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+     <!-- navbar end -->
+      
+    <main>
+        <div class="button_container">
+            <div class="view_cart_button">View Cart</div>
+       </div>
+
+       <div class="detail_product_container">
+            <div class="detail_product_img"><img src="../ASSET/product-image/product-1.jpg" alt=""></div>
+
+            <div class="detail_product_description_container">
+                <div class="add_to_cart_button">ADD TO CART</div>
+                <div class="added_alert"></div>
+                <div class="detail_product_name">Lemari Bekas</div>
+                <div class="detail_product_description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis cum veniam distinctio modi quae eveniet, recusandae nemo nisi ut quas.
+                </div>
+                <div class="product_quality_container">
+                    <span>Quality:</span>
+                    <div class="product_detail_star_content">
+                        <div class="star_logo"></div>
+                        <div class="star_logo"></div>
+                        <div class="star_logo"></div>
+                        <div class="star_logo"></div>
+                        <div class="star_logo"></div>
+                    </div>
+                </div>
+                <div class="product_quantity_container">
+                    <div class="product_amount"><span>Quantity:</span></div>
+                    <div class="amout_button_container">
+                        <div class="amount_button minus_button"><div class="minus_icon"></div></div>
+                        <div class="amount_button display_amount_button">1</div>
+                        <div class="amount_button plus_button"><div class="plus_icon"></div></div>
+                    </div>
+                </div>
+                <div class="product_location_container">
+                    <div class="donator_address"><span>Donator Address: </span>Lorem ipsum dolor sit amet.</div>
+                    <div class="description_content">
+                        <div class="product_locaton_detail_button">Lorem, ipsum.</div>
+                        <div class="product_category_detail_button">Lorem.</div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+        <div class="more_items_container">
+            <div class="more_button_container">
+                <div class=""></div>
+                <div class="button_title">Items you might be interested in too</div>
+                <div class="view_all_item_button">View All Items</div>
+            </div>
+
+            <div class="content_container">
+
+                <!-- <div class="content">                
+                    <div class="product_image"><img src="../ASSET/product-image/product-1.jpg" alt="">  </div>              
+                    <div class="product_title">
+                        <div class="product_name_content">Lorem, ipsum asasasasasasdolor. lore</div>
+                        <div class="price_content">Free</div>
+                    </div>
+                    <div class="product_star_content">
+                        <div class="star_logo"></div>
+                        <div class="star_logo"></div>
+                        <div class="star_logo"></div>
+                        <div class="star_logo"></div>
+                        <div class="star_logo"></div>
+                    </div>
+                    <div class="description_content">
+                        <div class="product_locaton_button">Lorem, ipsum.</div>
+                        <div class="product_category_button">Lorem.</div>
+                    </div>
+                </div> -->
+                
+    
+           </div>
+        </div>
+
+
+        <div class="view_cart_container">
+            <div class="product_filter_content">
+                
+                <h1>View Cart<a href="#" class="close_icon_cart"><div class="close_icon_button"></div></a></h1>
+                <h3>Products in your cart: </h3>
+                <div class="cart_content_container">
+                    <div class="cart">
+                        <img src="../ASSET/product-image/product-1.jpg" alt="">
+                        <div class="product_description_cart">
+                            <div class="product_name_cart"><b>Product Name:</b> PC Case</div>
+                            <div class="product_amount_cart"><b>Amount:</b> 1</div>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <img src="../ASSET/product-image/product-2.jpg" alt="">
+                        <div class="product_description_cart">
+                            <div class="product_name_cart"><b>Product Name:</b> Jeans</div>
+                            <div class="product_amount_cart"><b>Amount:</b> 3</div>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <img src="../ASSET/product-image/product-3.jpg" alt="">
+                        <div class="product_description_cart">
+                            <div class="product_name_cart"><b>Product Name:</b> Shorts</div>
+                            <div class="product_amount_cart"><b>Amount:</b> 1</div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="amount_item_cart">
+                        total amount items: 4
+                    </div>
+                    <div class="check_out_button">Check Out</div>
+                    
+                </div>
+            </div>            
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section reach-us">
+                <h4>Reach us</h4>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.28-.28.67-.36 1.02-.25c1.12.37 2.32.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z"/>
+                    </svg>
+                    +1012 3456 789
+                </p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m20 8l-8 5l-8-5V6l8 5l8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/>
+                    </svg>
+                    demo@gmail.com
+                </p>
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/>
+                    </svg>
+                    132 Dartmouth Street Boston, Massachusetts 02156 United States
+                </p>
+            </div>
+            <div class="footer-section company">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blogs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section legal">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Services</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Techlabz Keybox</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Forum</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <h4>Join Our Newsletter</h4>
+                <form>
+                    <div class="input-box">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                    <p>*We will send you weekly updates of our newsletter.</p>
+                </form>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../JS/product_detail.js"></script>
+</body>
+</html>
