@@ -1,0 +1,184 @@
+body {
+    background-image: url(../ASSET/login&register/Log\ in\ page\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+body .main-content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.144);
+    width: 450px;
+    height: 600px;
+    margin-left: 55%;
+    margin-top: 50px;
+    border-radius: 65px;
+    padding: 4rem;
+}
+
+body .main-content .h2 {
+    font-size: 32px;
+    height: 0;
+}
+
+body .main-content .p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+label {
+
+    font-size: 16px;
+    color: #000000;
+    text-shadow: rgba(1, 1, 3, 0.5);
+    font-weight: bolder;
+}
+
+
+.form_login {
+    /*membuat lebar form penuh*/
+    background-color: rgba(255, 255, 255);
+    fill: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    /* margin-top: 5px; */
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 10px;
+    border-color: #eaeaea;
+}
+
+
+
+/* checkbox */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+.create-account {
+    background: #000000;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(1, 1, 3, 0.5);
+}
+
+.create-account:hover {
+    background-color: #eaeaea;
+}
+
+.main-content .login-another {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+
+
+/* Google */
+.main-content .google .img-1 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.main-content .google {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0);
+    width: 200px;
+    padding: 5px;
+    border: 2px solid rgba(240, 248, 255, 0);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(1, 1, 3, 0.5);
+}
+
+.main-content .google:hover {
+    border: 2px solid #eaeaea;
+}
+
+
+.main-content .google .google-btn {
+    display: inline-block;
+    width: auto;
+    margin-left: 10px;
+
+}
+
+.main-content .google a {
+    color: #eaeaea;
+}
+
+/* Apple */
+
+.main-content .apple .img-2 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.main-content .apple {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0, 5);
+    border: 2px solid rgba(240, 248, 255, 0);
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(1, 1, 3, 0.5);
+
+}
+
+.main-content .apple:hover {
+    border: 2px solid #eaeaea;
+}
+
+
+.main-content .apple .apple-btn {
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.main-content .apple a {
+    color: #eaeaea;
+}
+
+/* SingUp */
+form .p2 {
+    color: rgb(0, 0, 0);
+}
+
+form .p2:hover {
+    color: rgb(255, 255, 255);
+}
+
+form .signIn {
+    margin-top: 30px;
+
+}
+
+body .main-content .signIn {
+    text-align: center;
+}
