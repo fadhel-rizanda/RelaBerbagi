@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="../CSS/register.css">
+    
+</head>
+<body>
+
+    <div class="main-content">
+
+        <h2 class="h2">Make your account</h2>
+        <p class="p">Enter your Credentials to access your account</p>
+
+        <form>
+            
+            <label>Username</label>
+            <input type="text" name="username" class="form_login" placeholder="Enter your email">
+
+            <label>Email address</label>
+            <input type="text" name="email" class="form_login" placeholder="Enter your email">
+    
+            <label>Password</label>
+            <input type="text" name="password" class="form_login" placeholder="Enter your password">
+            
+            <label>Confirm Password</label>
+            <input type="text" name="confirm-password" class="form_login" placeholder="Enter your confirmation password">
+
+            <!-- check box -->
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="remember-me" name="remember-me">
+                <label for="remember-me">Remember for 30 days</label>
+            </div>
+            
+            <!-- Login Button -->
+            <input href="" type="button" class="create-account" value="Create account" id="create-account" onclick="validateData()"> 
+
+            <div class="login-another">
+
+                <div class="google">
+                    <div class="img-1">
+                        <img src="../ASSET/login&register/icons8-google 1.png">
+                    </div>
+                    <a class="google-btn">Login with Google</a>
+    
+                </div>
+                <div class="apple">
+                    
+                    <div class="img-2">
+                        <img src="../ASSET/login&register/icons8-apple-logo 1.png">
+                    </div>
+                    <a class="apple-btn">Login with Apple</a>
+        
+                </div>  
+
+            </div>
+
+            <p class="signIn">Already have account? <a class="p2" href="login.html" style="text-decoration: none;">Sing In</a></p>
+
+        </form>
+
+
+
+    </div>
+
+    <script	src="../JS/register.js"></script>   
+
+</body>
+</html>
