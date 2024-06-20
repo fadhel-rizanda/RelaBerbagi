@@ -276,6 +276,7 @@ body::-webkit-scrollbar {
     background: url("../ASSET/about-page-assets/dashboard-image.jpg") no-repeat center center/cover;
     opacity: 0.6; /* Adjust the opacity here */
     z-index: -1; /* Ensure the background is behind the content */
+    margin-top: 70px;
 }
 
 .dashboard h1, .dashboard h2 {
