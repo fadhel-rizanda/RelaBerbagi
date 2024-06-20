@@ -588,3 +588,36 @@ footer {
     margin-bottom: 10px;
 }
 /* footer end */
+
+@media (max-width: 900px) {
+  html {
+      font-size: 80%;
+  }
+
+  .hideOnMobile {
+      display: none;
+  }
+  .menu_button {
+      display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard h1, .dashboard h2 {
+      font-size: 2.5rem;
+  }
+  .dashboard p {
+      /* font-size: 1.5rem; */
+      margin-bottom: 30px; /* Atur margin bottom yang lebih kecil */
+  }
+
+  .about_us_column {
+      gap: 10px;
+  }
+
+  
+}
+
+@media (max-width: 480px) {
+  
+}

@@ -4,6 +4,18 @@
 // Clothing and Accessories
 // Home and Furniture
 
+// NAVBAR
+function showSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex' 
+}
+  
+function hideSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none' 
+}
+// NAVBAR END
+
 const products = [
     {
         productName: "PC Case",

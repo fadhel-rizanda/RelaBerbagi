@@ -1,3 +1,15 @@
+// NAVBAR
+function showSidebar() {
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'flex' 
+}
+
+function hideSidebar() {
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'none' 
+}
+// NAVBAR END
+
 const urlParams = new URLSearchParams(window.location.search);
 const productName = urlParams.get("productName");
 const donatorLocation = urlParams.get("donatorLocation");
