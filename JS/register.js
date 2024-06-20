@@ -31,6 +31,6 @@ function validateData() {
     alert('Pendaftaran berhasil!');
     
     // Mengalihkan ke halaman home
-    window.location.href = 'login.html';
+    window.location.href = '../HTML/home.html';
 }
 

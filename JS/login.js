@@ -18,5 +18,5 @@ function validateData() {
 
     // Jika semua validasi lolos, menampilkan pesan sukses dan mengalihkan ke halaman home
     alert('Login berhasil!');
-    window.location.href = 'home.html';
+    window.location.href = '../HTML/home.html';
 }
