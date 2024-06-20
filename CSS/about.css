@@ -248,6 +248,7 @@ body::-webkit-scrollbar {
 
 .main_container {
     min-height: 500px;
+    padding-top: 70px;
 }
 
 .dashboard {
