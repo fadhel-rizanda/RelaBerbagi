@@ -36,6 +36,7 @@ nav {
     background-color: var(--color-black);
     padding: 10px 5%;
     width: 100%;
+    z-index: 9999;
 }
 nav ul {
     width: 100%;
