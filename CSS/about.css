@@ -248,6 +248,11 @@ footer {
 
 /* ================================================================== */
 
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
 .main_container {
     min-height: 500px;
 }
