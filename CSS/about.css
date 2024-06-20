@@ -263,6 +263,7 @@ body::-webkit-scrollbar {
     padding: 0 5%;
     color: white; /* Text color */
     overflow: hidden; /* Ensure the pseudo-element does not overflow */
+    margin-top: 50px;
 }
 
 .dashboard::before {
