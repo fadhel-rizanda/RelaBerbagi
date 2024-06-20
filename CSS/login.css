@@ -4,6 +4,10 @@ body {
     background-size: 100%;
 
 }
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
 
 body .main-content {
     display: flex;
