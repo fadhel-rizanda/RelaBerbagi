@@ -118,8 +118,8 @@ nav a:hover {
     color: white; /* Warna placeholder */
     opacity: 1; /* Pastikan placeholder tidak transparan */
 }
-
 /* }navbar end */
+
 body::-webkit-scrollbar {
   width: 0;
   height: 0;

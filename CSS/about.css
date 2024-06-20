@@ -30,6 +30,7 @@ body {
 /* ================================================================== */
 /* HEADER */
 
+/* navbar start{ */
 nav {
     position: fixed;
     background-color: var(--color-black);
@@ -59,9 +60,6 @@ nav a {
 nav a:hover {
     color: var(--color-gray);
 }
-/* nav li:first-child {
-    margin-right: auto;
-} */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -130,6 +128,7 @@ nav a:hover {
     color: white; /* Warna placeholder */
     opacity: 1; /* Pastikan placeholder tidak transparan */
 }
+/* }navbar end */
 
 /* ================================================================== */
 
