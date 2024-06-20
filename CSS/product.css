@@ -1,11 +1,4 @@
-@font-face {
-    font-family: 'Nunito Sans-Regular';
-    src: url("/Font/NunitoSans-Regular.ttf");
-}
-@font-face {
-    font-family: 'Nunito Sans-Black';
-    src: url("/Font/NunitoSans-Black.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 
 * {
   margin: 0;
@@ -14,7 +7,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  font-family: 'Nunito Sans-Regular';
+  font-family: "Abhaya Libre", serif;
 }
 
 :root {
