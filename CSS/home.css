@@ -290,13 +290,20 @@ footer {
     padding: 0 10%;
     margin-bottom: 100px;
     justify-content: space-between;
-    gap: 100px;
+    gap: 80px;
 }
-.quotes p {
+.quotes_child h3 {
     font-size: 1.5rem;
     line-height: 30px;
-    font-weight: 600;
-    /* width: 200px; */
+    margin-bottom: 10px;
+}
+.quotes_child p {
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.items img{
+    cursor: pointer;
 }
 
 .view-items {
