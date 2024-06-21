@@ -253,7 +253,6 @@ body::-webkit-scrollbar {
 .dashboard {
     position: relative;
     width: 100%;
-    height: 600px; /* Set specific height */
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -263,6 +262,8 @@ body::-webkit-scrollbar {
     padding: 0 5%;
     color: white; /* Text color */
     overflow: hidden; /* Ensure the pseudo-element does not overflow */
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .dashboard::before {
@@ -275,6 +276,7 @@ body::-webkit-scrollbar {
     background: url("../ASSET/about-page-assets/dashboard-image.jpg") no-repeat center center/cover;
     opacity: 0.6; /* Adjust the opacity here */
     z-index: -1; /* Ensure the background is behind the content */
+    /* padding-top: 200px; */
 }
 
 .dashboard h1, .dashboard h2 {
@@ -299,12 +301,12 @@ body::-webkit-scrollbar {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 100px;
+    gap: 50px;
     justify-content: center;
 }
 
 .about_us_column p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 250px;
     margin: 0;
 }
