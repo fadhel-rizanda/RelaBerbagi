@@ -35,9 +35,7 @@ nav {
     background-color: var(--color-black);
     padding: 10px 5%;
     width: 100%;
-    z-index: 9999;
 }
-
 nav ul {
     width: 100%;
     list-style: none;
@@ -45,11 +43,9 @@ nav ul {
     align-items: center;
     justify-content: space-between;
 }
-
 nav li {
     height: 50px;
 }
-
 nav a {
     height: 100%;
     padding: 0 25px;
@@ -60,18 +56,15 @@ nav a {
     font-weight: 500;
     font-size: 1.3rem;
 }
-
 nav a:hover {
     color: var(--color-gray);
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-
 .menu-nav {
     display: flex;
     justify-content: center;
@@ -92,15 +85,12 @@ nav a:hover {
     align-items: flex-start;
     justify-content: flex-start;
 }
-
 .sidebar li {
     width: 100%;
 }
-
 .sidebar a {
     width: 100%;
 }
-
 .menu_button {
     display: none;
 }
@@ -113,41 +103,31 @@ nav a:hover {
     position: relative;
     width: 250px;
 }
-
 .search {
     border-radius: 20px;
     height: 35px;
     width: 100%;
     padding: 10px 10px 10px 30px;
     box-sizing: border-box;
-    color: white;
-    /* Warna teks */
+    color: white; /* Warna teks */
     font-size: medium;
     background-color: rgba(128, 128, 128, 0.4);
     border: none;
 }
-
 .search-input svg {
     position: absolute;
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
-    width: 15px;
-    /* Sesuaikan ukuran ikon */
-    height: 15px;
-    /* Sesuaikan ukuran ikon */
-    color: white;
-    /* Warna ikon */
+    width: 15px; /* Sesuaikan ukuran ikon */
+    height: 15px; /* Sesuaikan ukuran ikon */
+    color: white; /* Warna ikon */
 }
-
 .search::placeholder {
-    color: white;
-    /* Warna placeholder */
-    opacity: 1;
-    /* Pastikan placeholder tidak transparan */
+    color: white; /* Warna placeholder */
+    opacity: 1; /* Pastikan placeholder tidak transparan */
 }
-
-/* navbar end */
+/* }navbar end */
 
 /* ================================================================== */
 
