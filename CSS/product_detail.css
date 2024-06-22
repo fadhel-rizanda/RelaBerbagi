@@ -273,6 +273,7 @@ main {
 .plus_button:active {
   background-color: var(--color-white-4);
 }
+
 .plus_icon{
     background-image: url(../ASSET/icon-image/plus.png);
     width: 20px;
